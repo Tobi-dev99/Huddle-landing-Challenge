@@ -1,0 +1,126 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    background-color: hsl(257, 40%, 49%);
+    margin: 0;
+    color: #FDFDF8;
+    box-sizing: border-box;
+    font-weight: 400;
+}
+
+h2 {
+    width: 60%;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    width: 60%;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.background {
+    background: url(images/bg-mobile.svg) center/100%;
+}
+
+.container {
+    margin: 0px auto;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 200px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 70px;
+    align-self: baseline;
+}
+
+.mock-img {
+    width: 70%;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 12px 90px;
+    border-radius: 20px;
+    background-color: #FDFDF8;
+    box-shadow: 5px 5px 10px 2px #533A8F;
+    color: #533A8F;
+    font-weight: 700;
+}
+
+.social-img {
+    width: 50px;
+    margin-top: 50px;
+    border-radius: 100%;
+    margin-left: 10px;
+}
+
+@media screen and (min-width: 800px) {
+    .background {
+        background: url(images/bg-desktop.svg) center/100% fill;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .mock-img {
+        margin-left: 70px;
+        min-width: 700px;
+        margin-right: 30px;
+    }
+
+    h2 {
+        font-size: 40px;
+        margin-top: 30px;
+        margin-left: 0%;
+        text-align: left;
+    }
+
+    .main-body p {
+        width: 500px;
+        text-align: left;
+        line-height: 2;
+        margin-left: 0%;
+    }
+
+    .btn {
+        float: left;
+    }
+
+    .media {
+        margin-left: auto;
+        width: 200px;
+        margin-right: 0; 
+    }
+
+    p {
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin: 5px auto 0px auto;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
